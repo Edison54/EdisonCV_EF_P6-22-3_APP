@@ -10,6 +10,7 @@
             <Label Text="Ingrese su ID (En este caso puede probar con una id que no esta en la bd como 1 , pero si pone 3 que si esta u otras que si estan podra acceder) " TextColor="Black" />
 
 
+            
             <Entry   x:Name="TxtID" Placeholder="ID" />
             <Button FontFamily="Josefinbold" 
                     x:Name="BtnIngreso" Text="Ingreso"
