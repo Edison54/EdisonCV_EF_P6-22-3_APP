@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EdisonCV_EF_P6_22_3_APP.Views.AskPage">
+    <ContentPage.Content>
+        <StackLayout>
+         
+
+
+            <Label   Grid.Row="1" FontAttributes="Bold" TextColor="Black" 
+                    FontSize="25" HorizontalTextAlignment="Start" Text="Escribe tu pregunta:" Margin="0,0,50,0"  />
+            <Entry   x:Name="TxtAsk" Placeholder="Pregunta" />
+
+            <Label  Grid.Row="1" FontAttributes="Bold" TextColor="Black" 
+                    FontSize="25" HorizontalTextAlignment="Start" Text="Los detalles de la pregunta:" Margin="0,0,50,0"  />
+            <Entry   x:Name="TxtAskDetail" Placeholder="Detaller" />
+
+            <Label  Grid.Row="1" FontAttributes="Bold" TextColor="Black" 
+                    FontSize="25" HorizontalTextAlignment="Start" Text="Url de la pregunta" Margin="0,0,50,0"  />
+            <Entry  x:Name="TxtPhoto" Placeholder="URL"/>
+            
+            
+            <Label   Grid.Row="1" FontAttributes="Bold" TextColor="Gray" FontSize="15" HorizontalTextAlignment="Start" Text="Fecha"  />
+            <DatePicker  x:Name="TxtDate" IsEnabled="False"  />
+
+
+            <Button  x:Name="BtnAdd" Text="Crea tu pregunta" FontSize="25"  CornerRadius="5" BackgroundColor="#0C61E4" Clicked="BtnAdd_Clicked"  />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
