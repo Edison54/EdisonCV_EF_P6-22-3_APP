@@ -58,9 +58,6 @@ namespace EdisonCV_EF_P6_22_3_APP.Models
                 var settings = new JsonSerializerSettings();
                 settings.NullValueHandling = NullValueHandling.Ignore;
 
-
-
-
                 string SerialClass = JsonConvert.SerializeObject(this, settings);
 
                 request.AddBody(SerialClass, mimetype);

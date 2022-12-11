@@ -26,8 +26,6 @@ namespace EdisonCV_EF_P6_22_3_APP.Views
 
 
 
-
-
             {
                 this.BindingContext = vm = new AskViewModel();
                 InitializeComponent();
